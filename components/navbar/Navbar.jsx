@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Links from "./links/Links";
-import styles from "./Navbar.module.css";
+import styles from "./navbar.module.css";
 import { auth } from "../../lib/auth";
 import Image from "next/image";
 import Logo from "../icons/Logo";
