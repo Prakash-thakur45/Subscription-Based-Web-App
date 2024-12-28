@@ -5,11 +5,11 @@ import Razorpay from 'razorpay';
 import { upsertSubscriptionRecord } from '../../../lib/data';
 import crypto from 'crypto';
 
-export const config = {
-  api: {
-    bodyParser: false, // Disable the default body parser to handle raw requests
-  },
-};
+// export const config = {
+//   api: {
+//     bodyParser: false, // Disable the default body parser to handle raw requests
+//   },
+// };
 
 const razorpay = new Razorpay({
   key_id: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
